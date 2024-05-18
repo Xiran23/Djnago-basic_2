@@ -1,0 +1,32 @@
+python -m venv myenv
+.\myenv\Scripts\activate
+pip install django
+pip install django
+django-admin startproject myproject(projects name)
+cd myproject
+python manage.py runserver
+
+pypi.org
+pip intall virtual env 
+virtualenv env(name of env)  python -m virtualenv <nameOfEnv>
+
+env \scripts\activate
+@REM on terminal run as adminster
+@REM Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+pip intall Django 
+i)django-admin startproject (nameofprojectcd) //create a project 
+ii)in another terminal 
+@REM //create a app
+python manage.py startapp base (home)
+iii)python manage.py runserver
+
+
+//custaom server 
+python manage.py runserver 0.0.0.0:5000
+
+
+
+env is always outside 
+
+
+run activate on the env

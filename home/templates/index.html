@@ -1,0 +1,35 @@
+{%extends "base.html"%}
+{% block start %}
+<h1>THis is an Test</h1>
+{{peoples}}
+
+<a href="/contact">contact</a>
+
+<a href="/about">About</a>
+
+<table>
+  <tr>
+    <th>sn no</th>
+    <th>name</th>
+    <th>age</th>
+    <th>can vote</th>
+    <th>Test</th>
+  </tr>
+
+  {% for people in peoples%}
+  <tr>
+    <td>{{forloop.counter}}</td>
+    <td>{{people.name}}</td>
+    <td>{{people.age}}</td>
+    {% if people.age > 18 %}
+    <td>Yes! you can vote</td>
+    {% else %}
+    <td>No! you can't vote</td>
+    {% endif %}
+    <td>
+      {% if people.age > 18 %} &#128077; {%else %} &#x1F44E; {%endif%}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}

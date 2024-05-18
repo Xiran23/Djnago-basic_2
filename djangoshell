@@ -1,0 +1,43 @@
+# import the app 
+
+# from home.models import *
+
+//need to save for this 
+
+car = Car() //here Car is model created in app 
+
+car.save()
+
+
+to print 
+- car
+
+no need to save if we 
+
+
+  car.objects.create(car_name="nexonm",speed=90)
+
+
+car.object.all() //return str string 
+
+
+car.objects.get(id=1) return error need to sorrund in exception
+
+car.object.filter(id=10) reutrns empty 
+
+
+updates 
+car.objects.get(id=1)
+ car.car_name = "cretta"
+car.speed = 180
+
+car.object.filter(id=10).uptate(car_name="createa far")
+
+
+car.objects.all()
+
+
+
+car.objects.get(id=1).delete()
+
+

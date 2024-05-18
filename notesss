@@ -1,0 +1,23 @@
+# add apps in setting.py 
+
+#   INstalled_apps =[]
+
+
+#    from django.contrib import admin
+# from django.urls import path
+# from home.views import *
+
+# coree/urls.py
+# urlpatterns = [
+#     path('',home,name="home"),
+#       path('success-page',success_page,name="success_page"),
+#     path('admin/', admin.site.urls),
+# ]
+#   home/views.py 
+# from django.http import HttpResponse
+
+# def home(request):
+#     return HttpResponse("Hey i am django functions")
+
+# def success_page(request):
+#     return HttpResponse("Hey this is and sucess page django functions")
